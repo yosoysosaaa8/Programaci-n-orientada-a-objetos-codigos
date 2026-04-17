@@ -1,3 +1,4 @@
+//Actividad de sosa
 class HéroeDeAventura{
     nombre: string;
     nivel: number;
@@ -16,7 +17,11 @@ class HéroeDeAventura{
 
     }
     recibirDanio(puntos: number): void{
+<<<<<<< HEAD
         puntos=50-1;
+=======
+        puntos= 50-1;
+>>>>>>> b3f38484046110e323e475b20896556fd61ce88b
         if(puntos<=0){
             this.estaVivo = false;
         }
