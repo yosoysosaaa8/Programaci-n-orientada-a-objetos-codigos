@@ -12,11 +12,11 @@ class HéroeDeAventura{
         this.estaVivo = true;
         this.fechaCreacion = (new Date ());
         this.habilidades = habilidades;
-        this.estadisticas = "100";
+        this.estadisticas = "50";
 
     }
     recibirDanio(puntos: number): void{
-        puntos=100-1;
+        puntos=50-1;
         if(puntos<=0){
             this.estaVivo = false;
         }
